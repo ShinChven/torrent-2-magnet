@@ -1,0 +1,19 @@
+{
+  "name": "torrent-2-magnet",
+  "version": "1.0.0",
+  "description": "A cli to parse torrent file to magnet uri",
+  "main": "index.js",
+  "bin": {
+    "t2m": "src/index.js"
+  },
+  "keywords": [
+    "torrent",
+    "magnet"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "fs-extra": "^9.0.1",
+    "parse-torrent": "^9.1.0"
+  }
+}
